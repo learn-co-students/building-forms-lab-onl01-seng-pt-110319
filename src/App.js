@@ -6,6 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <BandsContainer />
+        {/* BandsContainer is a child of App component */}
       </div>
     );
   }
